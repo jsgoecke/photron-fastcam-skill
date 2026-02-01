@@ -198,4 +198,6 @@ pixel2 = ((byte1 & 0x0F) << 8) | byte2;
 
 ## License
 
-This skill is provided as-is for use with Claude and Claude Code by Anthropic. Camera SDK and software are subject to Photron's licensing terms.
+MIT License. See [LICENSE](LICENSE) for details.
+
+Note: Photron camera SDK and software are subject to Photron's licensing terms.
