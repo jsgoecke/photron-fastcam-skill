@@ -1,6 +1,6 @@
 # Photron FASTCAM Skill
 
-A Claude Code skill providing expert guidance for Photron high-speed cameras and SDK programming.
+An [Anthropic](https://anthropic.com) skill for [Claude](https://claude.ai) and [Claude Code](https://claude.ai/claude-code) providing expert guidance for Photron high-speed cameras and SDK programming.
 
 ## Overview
 
@@ -198,4 +198,4 @@ pixel2 = ((byte1 & 0x0F) << 8) | byte2;
 
 ## License
 
-This skill is provided as-is for use with Claude Code. Camera SDK and software are subject to Photron's licensing terms.
+This skill is provided as-is for use with Claude and Claude Code by Anthropic. Camera SDK and software are subject to Photron's licensing terms.
