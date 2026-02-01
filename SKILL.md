@@ -57,7 +57,7 @@ To stream frames without PFV overhead:
    - Use PDCLIB directly via C/C++ or Python wrapper
    - Call `PDC_GetLiveImageData()` in tight loop
    - Process frames in separate thread
-   - See [SDK Reference](references/sdk_reference.md) for full API
+   - See [SDK Reference](resources/references/sdk_reference.md) for full API
 
 2. **Windows (Python)**
    - Use PyHSCam wrapper (github.com/ion201/PyHSCam)
@@ -112,8 +112,8 @@ Firewall: Allow application through
 
 ## Detailed References
 
-- **SDK API Functions**: See [references/sdk_reference.md](references/sdk_reference.md)
-- **Camera Specifications**: See [references/camera_specs.md](references/camera_specs.md)
+- **SDK API Functions**: See [resources/references/sdk_reference.md](resources/references/sdk_reference.md)
+- **Camera Specifications**: See [resources/references/camera_specs.md](resources/references/camera_specs.md)
 
 ## Common Issues
 

@@ -39,11 +39,11 @@ This skill transforms Claude into a Photron FASTCAM expert, offering assistance 
 ### Directory Structure
 
 ```
-photron-fastcam/
+photron-fastcam-skill/
 ├── README.md                         # This file
+├── SKILL.md                          # Main skill definition and quick reference
 ├── photron-fastcam.skill             # Packaged skill file
 └── resources/
-    ├── SKILL.md                      # Main skill definition and quick reference
     ├── references/
     │   ├── camera_specs.md           # Detailed camera specifications
     │   ├── sdk_reference.md          # PDCLIB API documentation
