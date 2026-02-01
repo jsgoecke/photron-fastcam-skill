@@ -24,17 +24,18 @@ This skill transforms Claude into a Photron FASTCAM expert, offering assistance 
 
 ### As a Claude Code Skill
 
-1. Copy the `photron-fastcam.skill` file to your Claude Code skills directory:
-   ```bash
-   cp photron-fastcam.skill ~/.claude/skills/
-   ```
+Clone or copy this repository to your Claude Code skills directory:
 
-2. Or build and install from the resources directory:
-   ```bash
-   cd photron-fastcam/resources
-   zip -r ../photron-fastcam.skill .
-   cp ../photron-fastcam.skill ~/.claude/skills/
-   ```
+```bash
+git clone https://github.com/jsgoecke/photron-fastcam-skill.git ~/.claude/skills/photron-fastcam-skill
+```
+
+Or add as a symbolic link:
+
+```bash
+git clone https://github.com/jsgoecke/photron-fastcam-skill.git ~/projects/photron-fastcam-skill
+ln -s ~/projects/photron-fastcam-skill ~/.claude/skills/photron-fastcam-skill
+```
 
 ### Directory Structure
 
@@ -42,7 +43,6 @@ This skill transforms Claude into a Photron FASTCAM expert, offering assistance 
 photron-fastcam-skill/
 ├── README.md                         # This file
 ├── SKILL.md                          # Main skill definition and quick reference
-├── photron-fastcam.skill             # Packaged skill file
 └── resources/
     ├── references/
     │   ├── camera_specs.md           # Detailed camera specifications
